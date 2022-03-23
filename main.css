@@ -1,20 +1,23 @@
 body {
 	/* background-image: url('Background.png'); */
-	background-color: #AABAAA;
+	background-color: #BEBAD1;
+	background-color: #DDDDDD;
 	background-repeat: repeat;
 	background-size: normal;
 	text-align: center;
 }
-.button {
+.button {:w
+
 	border-width: 3px;
 	border-radius: 40px;
 	width: 300px;
 	text-align: center;
 	font-size: 100%;
+  border-color=#66C4D9;
 }
 .button:hover {
-	border-color: orange;
-	color: orange;
+	border-color: #66C4D9;
+	color: #66C4D9;
 }
 .buttonGames:hover{
 	border-color: green;
@@ -23,10 +26,10 @@ body {
 .Heading {
 	font-size: 300%;
 	font-family: iosevka;
-	color: darkcyan;
+	color: #A2A6F2;
 }
 .TextNorm{
 	font-size: large;
 	/* font-weight: 10000; */
-	color:rgb(0, 0, 0);
+	color:#66C4D9;
 }
